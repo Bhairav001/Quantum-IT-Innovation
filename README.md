@@ -1,9 +1,9 @@
 # Assignment Title -Quantum IT Innovation
 ## Assignment Type - Full Stack
 ## Deployed App
-Frontend: https://deployed-site.whatever
-Backend: https://deployed-site.whatever
-Database: https://deployed-site.whatever
+Frontend: https://quantum-it-innovation-beta.vercel.app/
+Backend: https://motionless-rose-knickers.cyclic.app/
+Database: http://localhost:8080/users
 ## Video Walkthrough of the assignment
 www.https://frontendvideo.com
 
