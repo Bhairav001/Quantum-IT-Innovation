@@ -4,7 +4,7 @@ const Table = () => {
 const [posts, setPosts] = useState([])
 const navigate = useNavigate()
     useEffect(() => {
-        fetch("http://localhost:8080/users/", {
+        fetch("https://motionless-rose-knickers.cyclic.app/users/", {
           headers: {
             "Authorization": localStorage.getItem("token"),
           },

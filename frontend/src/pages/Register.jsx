@@ -30,7 +30,7 @@ const Register = () => {
       return
     }
     try {
-      const response = await fetch("http://localhost:8080/users/register", {
+      const response = await fetch("https://motionless-rose-knickers.cyclic.app/users/register", {
         method: "POST",
         body: JSON.stringify(formData),
         headers: {
