@@ -5,10 +5,10 @@ Frontend: https://quantum-it-innovation-beta.vercel.app/
 Backend: https://motionless-rose-knickers.cyclic.app/
 Database: http://localhost:8080/users
 ## Video Walkthrough of the assignment
-www.https://frontendvideo.com
+https://drive.google.com/file/d/1poZWDdOO3vCVNPQNmpu-5eU4OvJNNPEu/view?usp=sharing
 
 ## Video Walkthrough of the codebase
-https://deployed-site.whatever/backend
+https://drive.google.com/file/d/1poZWDdOO3vCVNPQNmpu-5eU4OvJNNPEu/view?usp=sharing
 
 ## Features
 List out the key features of your application.
@@ -16,7 +16,7 @@ List out the key features of your application.
 - Authentication
 - Form Preview -
 - Private Router
-- Followed CRUD
+- Followed Register and Login routes
 ## design decisions or assumptions
 Assignment by company, and solve the problem while during private router and authentication
 ## Installation & Getting started
