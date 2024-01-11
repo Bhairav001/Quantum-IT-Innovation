@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const Login = () => {
   const [formData, setFormData] = useState({
     email: '',
-    pass: '',
+    password: '',
 });
 const navigate = useNavigate()
 function handleChange(e) {
@@ -15,7 +15,7 @@ function handleChange(e) {
 
   async function handleSubmit(e) {
     e.preventDefault();
-    if (formData.email == "" || formData.pass == "") {
+    if (formData.email == "" || formData.password == "") {
         toast.error("Please enter all details first !", {
             position: toast.POSITION.TOP_RIGHT,
         });
@@ -32,13 +32,13 @@ function handleChange(e) {
         .then(res=>res.json())
         .then(res=>{
             console.log("res",res)
-            if(res.msg=="user Logggin"){
+            if(res.msg=="Login Successfully done!"){
               localStorage.setItem("token",res.token)
               toast.success("Login Sucessfully !", {
                 position: toast.POSITION.TOP_RIGHT,
                });
              setTimeout(() => {  
-                navigate("/")
+                navigate("/table")
              }, 2000)
             }else{
               // console.error('Error submitting form:', error.message);
@@ -74,10 +74,10 @@ function handleChange(e) {
                     className="w-full mb-4 p-2 border border-gray-300 rounded"
                 />
                 <input
-                    type="password"
-                    placeholder="Enter password"
-                    value={formData.pass}
-                    name="pass"
+                    type="passwordword"
+                    placeholder="Enter passwordword"
+                    value={formData.password}
+                    name="password"
                     onChange={handleChange}
                     className="w-full mb-4 p-2 border border-gray-300 rounded"
                 />
